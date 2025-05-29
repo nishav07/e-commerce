@@ -20,9 +20,19 @@ app.get("/shop/:product" , (req,res) => {
 })
 
 app.get("/shop" , (req,res) => {
-    res.render("home");
+    res.render("shop");
     console.log(req.params);
 })
 
+app.get("/admin" , (req,res) => {
+    res.render("admin.ejs")
+})
 
+app.get("/admin/add" , (req,res) => {
+    res.render("add.ejs");
+})
 
+const data = fs.readFileSync('db.json', 'utf8');
+const product = JSON.parse(data);
+let newdata = Object.values(product);
+console.log(newdata);

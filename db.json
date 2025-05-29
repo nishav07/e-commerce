@@ -1,0 +1,53 @@
+{
+  "Headphones": {
+    "name": "Wireless Headphones",
+    "brand": "Boat",
+    "price": 2999,
+    "category": "Electronics",
+    "stock": 50,
+    "rating": 4.5,
+    "description": "High-quality sound with deep bass and long battery life.",
+    "image": "https://cdn.dummyjson.com/products/images/mobile-accessories/Apple%20AirPods%20Max%20Silver/1.png"
+  },
+  "Smartphone": {
+    "name": "Smartphone",
+    "brand": "Samsung",
+    "price": 15999,
+    "category": "Electronics",
+    "stock": 30,
+    "rating": 4.3,
+    "description": "Feature-packed smartphone with an amazing camera.",
+    "image": "https://cdn.dummyjson.com/products/images/smartphones/iPhone%2013%20Pro/1.png"
+  },
+  "Sneaker": {
+    "name": "Men's Sneakers",
+    "brand": "Nike",
+    "price": 2499,
+    "category": "Fashion",
+    "stock": 100,
+    "rating": 4.7,
+    "description": "Comfortable and stylish sneakers for everyday wear.",
+    "image": "https://cdn.dummyjson.com/products/images/mens-shoes/Sports%20Sneakers%20Off%20White%20&%20Red/1.png"
+  },
+  "Watch": {
+    "name": "Watch",
+    "brand": "Titan",
+    "price": 499,
+    "category": "Accessories",
+    "stock": 75,
+    "rating": 4.2,
+    "description": "Premium watch with real metal body and mate finish.",
+    "image": "https://cdn.dummyjson.com/products/images/mens-watches/Brown%20Leather%20Belt%20Watch/1.png"
+  },
+
+  "Drone": {
+    "name": "DJI Mavic mini",
+    "brand": "DJI",
+    "price": 199999,
+    "category": "Toy",
+    "stock": 30,
+    "rating": 4.9,
+    "description": "DJI mavic mini with high quality camera",
+    "image": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRuNN8G-yzBqI0H-TTg-VA0gxAWwJz9yC09W4acf8E6EV4jTuRIb1ADBnfMGA7T7cA15etcPItVMTKksGl71CiaL30iUAL2GKor_CJnL4HA15Xtb85g11G5&usqp=CAE"
+  }
+}

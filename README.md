@@ -1,1 +1,1 @@
-# my e commerce website prototype that i amde for ejs practice 
+# my e commerce website prototype that i made for ejs practice 

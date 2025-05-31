@@ -32,7 +32,6 @@ app.get("/admin/add" , (req,res) => {
     res.render("add.ejs");
 })
 
-const data = fs.readFileSync('db.json', 'utf8');
-const product = JSON.parse(data);
-let newdata = Object.values(product);
-console.log(newdata);
+// const data = fs.readFileSync('db.json', 'utf8');
+// const product = JSON.parse(data);
+// let newdata = Object.values(product);

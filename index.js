@@ -16,7 +16,7 @@ app.get("/shop/:product" , (req,res) => {
     console.log(db);
     let data = db[product];
     console.log(data);
-    res.render("product" ,  {data : data});
+    res.render("product" ,  {data : data}) ;
 })
 
 app.get("/shop" , (req,res) => {
@@ -31,7 +31,3 @@ app.get("/admin" , (req,res) => {
 app.get("/admin/add" , (req,res) => {
     res.render("add.ejs");
 })
-
-// const data = fs.readFileSync('db.json', 'utf8');
-// const product = JSON.parse(data);
-// let newdata = Object.values(product);

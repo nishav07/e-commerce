@@ -10,7 +10,7 @@
     "image": "https://cdn.dummyjson.com/products/images/mobile-accessories/Apple%20AirPods%20Max%20Silver/1.png"
   },
   "Smartphone": {
-    "name": "Smartphone",
+    "name": "Smartphone" ,
     "brand": "Samsung",
     "price": 15999,
     "category": "Electronics",

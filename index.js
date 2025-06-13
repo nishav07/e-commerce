@@ -10,6 +10,11 @@ app.listen(port, () => {
 
 app.set("view engine" , "ejs");
 
+app.use((req,res) => {
+    res.status(404).render("err.ejs")
+})
+
+
 app.get("/shop/:product" , (req,res) => {
     let product = req.params.product;
     let db = require('./db.json');

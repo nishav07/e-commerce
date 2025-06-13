@@ -2,17 +2,13 @@ let express = require('express');
 let app = express();
 let port = 3000;
 const fs = require('fs');
+const path = require('path')
 express.urlencoded({ extended: true }) ;
 app.set("views", path.join(__dirname, "views"));
 app.set("view engine" , "ejs");
 
 app.listen(port, () => {
     console.log("app listen by express");
-})
-
-
-app.use((req,res) => {
-    res.status(404).render("err.ejs")
 })
 
 
@@ -36,4 +32,8 @@ app.get("/admin" , (req,res) => {
 
 app.get("/admin/add" , (req,res) => {
     res.render("add.ejs");
+})
+
+app.use((req,res) => {
+    res.status(404).render("err")
 })
